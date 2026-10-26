@@ -3136,7 +3136,7 @@
   if (PLAN_PAGE) document.addEventListener("click", ev => {
     const a = ev.target.closest && ev.target.closest('a[href^="#"]'); if (!a) return;
     const id = decodeURIComponent(a.getAttribute("href").slice(1)); if (!id || document.getElementById(id)) return;
-    ev.preventDefault(); const w = window.open("/#" + id, "bth-map"); if (w) try { w.focus(); } catch (e) {}
+    ev.preventDefault(); const w = window.open("/commonshade-preview/#" + id, "bth-map"); if (w) try { w.focus(); } catch (e) {}
   }, true);
   window.addEventListener("storage", ev => {
     if (ev.key !== PLAN_KEY || !readPlan(ev.newValue)) return;

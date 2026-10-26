@@ -240,7 +240,7 @@
       <div class="wk-grid">
         <div class="wk-side">
           <p class="wk-intro">${esc(p.intro)}</p>
-          ${citiesOf(cn).length ? `<p class="wk-cities">Heat right now in ${citiesOf(cn).map(x => `<a href="/#city-${x.id}" target="_blank" rel="noopener">${esc(x.name)}<span class="visually-hidden"> (opens the city on the map, in a new tab)</span></a>`).join(", ")}</p>` : ""}
+          ${citiesOf(cn).length ? `<p class="wk-cities">Heat right now in ${citiesOf(cn).map(x => `<a href="/commonshade-preview/#city-${x.id}" target="_blank" rel="noopener">${esc(x.name)}<span class="visually-hidden"> (opens the city on the map, in a new tab)</span></a>`).join(", ")}</p>` : ""}
           <details class="wk-share"${shareOpen ? " open" : ""}><summary>Send ${esc(p.name)} to a colleague</summary>
             <label class="wk-share__opt"><input type="checkbox" data-hw-share-with${shareWith ? " checked" : ""}> Include my numbers, package and tests</label>
             <label class="wk-share__url">Link <input type="text" readonly data-hw-share-url value="${esc(shareUrl())}"></label>
@@ -334,7 +334,7 @@
       if (!Array.isArray(plan.levers)) plan.levers = [];
       lv.forEach(id => { if (!plan.levers.includes(id)) { plan.levers.push(id); n++; } });
       try { localStorage.setItem("bth-plan-v1", JSON.stringify(plan)); } catch (e) {} track("heatweek-plan");
-      if (status) status.innerHTML = lv.length ? `${n ? `Added ${plural(n, "action")} to your plan.` : "Those actions are already in your plan."} <a href="/#plan-step-3">Set who leads and pays</a>` : "Choose some measures first."; }
+      if (status) status.innerHTML = lv.length ? `${n ? `Added ${plural(n, "action")} to your plan.` : "Those actions are already in your plan."} <a href="/commonshade-preview/#plan-step-3">Set who leads and pays</a>` : "Choose some measures first."; }
   });
   box.addEventListener("input", ev => {
     const t = ev.target, s = st();

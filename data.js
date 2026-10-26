@@ -4217,7 +4217,7 @@ const GUIDE = {
   },
   toolkit: [
     { n: 1, verb: "Feel it", name: "A week in the heat", href: "/commonshade-preview/a-week-in-the-heat/", tab: true, who: "Funders, officials, NGOs, workers’ organisations", time: "15 min", take: "Where a worker’s money runs out, and which protection actually reaches them.", icon: "feel" },
-    { n: 2, verb: "Find what works", name: "Practical actions and cooling options", href: "/#practical", who: "Anyone who can act this season", time: "10–20 min", take: "Actions by setting, with who does them, what they cost and what keeps them working.", icon: "find" },
+    { n: 2, verb: "Find what works", name: "Practical actions and cooling options", href: "/commonshade-preview/#practical", who: "Anyone who can act this season", time: "10–20 min", take: "Actions by setting, with who does them, what they cost and what keeps them working.", icon: "find" },
     { n: 3, verb: "Plan it", name: "Plan a response", href: "/commonshade-preview/plan/", tab: true, who: "City, health and disaster teams; NGOs", time: "30–60 min", take: "A plan with owners, money, triggers and a stress test of essential services.", icon: "plan" },
     { n: 4, verb: "Make it work together", name: "The coordinator’s simulation", href: "/commonshade-preview/together/", tab: true, who: "NGOs, community and volunteer groups convening a place", time: "30 min", take: "Who has to say yes, what breaks if they don’t, and a place protection plan.", icon: "together" },
     { n: 5, verb: "Learn from others", name: "How five cities organise for heat", href: "/commonshade-preview/plan/#plan-mech", tab: true, who: "Anyone designing a response", time: "5 min", take: "Mechanisms to adapt, and what to check before you do.", icon: "learn" }

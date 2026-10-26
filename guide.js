@@ -18,7 +18,7 @@
   function stopAction(id, s) {
     const label = s.go === "film" ? "Watch" : s.go === "tour" || s.go === "five" ? "Start" : s.go === "story" ? "Follow it" : s.tab ? "Open" : "Go there";
     if (s.go) {
-      if (!HOME) return `<a class="btn btn--sm btn--cta" href="${s.go === "story" ? `/#loop-${s.story}` : `/?go=${s.go}`}" target="bth-map" data-way-stop="${id}">${label} <span aria-hidden="true">→</span></a>`;
+      if (!HOME) return `<a class="btn btn--sm btn--cta" href="${s.go === "story" ? `/commonshade-preview/#loop-${s.story}` : `/?go=${s.go}`}" target="bth-map" data-way-stop="${id}">${label} <span aria-hidden="true">→</span></a>`;
       const attr = s.go === "five" ? 'data-five="start"' : s.go === "story" ? `data-story="${s.story}"` : `data-act="${s.go}"`;
       return `<button type="button" class="btn btn--sm btn--cta" ${attr} data-way-stop="${id}">${label} <span aria-hidden="true">→</span></button>`;
     }
@@ -56,7 +56,7 @@
   function renderToolkit() {
     const box = document.getElementById("toolkit"); if (!box) return;
     box.innerHTML = `<h3 class="toolkit__h">Your toolkit: five tools, in the order they build on each other</h3>
-      <ol class="toolkit__list">${G.toolkit.map(t => { const href = !HOME && t.href.startsWith("/#") ? t.href : t.href;
+      <ol class="toolkit__list">${G.toolkit.map(t => { const href = !HOME && t.href.startsWith("/commonshade-preview/#") ? t.href : t.href;
         return `<li class="toolkit__step"><a class="toolkit__card" href="${esc(href)}"${t.tab ? ' target="_blank" rel="noopener"' : !HOME ? ' target="bth-map"' : ""} data-way-tool="${t.n}">
           <span class="toolkit__icon" aria-hidden="true"><svg viewBox="0 0 48 48" width="44" height="44">${ICONS[t.icon]}</svg></span>
           <span class="toolkit__n">${t.n} · ${esc(t.verb)}</span><b>${esc(t.name)}</b>
