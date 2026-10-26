@@ -2739,7 +2739,7 @@ const LIVE_LEVELS_NOTE = "Warning levels are our estimate from model data, using
 
 // Heat in the news, and new research. News comes from a feed the site's GitHub Action refreshes every six hours
 // (tools/fetch-news.js, GDELT); research is searched live in Europe PMC. Headlines are outside sources, not reviewed by us.
-// Heat in the news, and new research now has its own page (/news/); its settings live in news.js.
+// Heat in the news, and new research now has its own page (/commonshade-preview/news/); its settings live in news.js.
 
 const LIVE_NOTE = "Live model data, refreshed every 30 minutes. It is not an official warning: for alerts, follow the national weather service linked on each city.";
 
@@ -3852,7 +3852,7 @@ const HEAT_WEEK = {
 };
 
 /* ---------- 33. MAKE IT WORK TOGETHER: PROTECTION IN A PLACE ---------- */
-// A coordinator's simulation, on its own page (/together/, together.js). Three hypothetical places, each with
+// A coordinator's simulation, on its own page (/commonshade-preview/together/, together.js). Three hypothetical places, each with
 // composite workers, the bodies whose agreement protection depends on, and measures broken into the requirements
 // that must all hold. A requirement counts only at the status it needs, and "agreed" or beyond counts only with
 // evidence. Work is measured in hours of dangerous heat and days' pay, never as a score or a prediction of illness.
@@ -4189,7 +4189,7 @@ const GUIDE = {
     day: { title: "Live a day in a heatwave", does: "Eight hours, seven places across Asia.", time: "5 min", take: "what a heatwave does, hour by hour", href: "#day" },
     atrisk: { title: "Meet the people heat hits hardest", does: "Who is most at risk, and the barriers that hold them back.", time: "5 min", take: "who to protect first, and why", href: "#at-risk" },
     city: { title: "Look up a city", does: "Heat, plans and cycles in twelve Asian cities.", time: "3 min", take: "where one city stands", href: "#city" },
-    week: { title: "Spend a week in the heat with one worker", does: "Follow a worker’s money through a heatwave, build protection, then try to break it.", time: "15 min", take: "where the money runs out, and what reaches people", href: "/a-week-in-the-heat/", tab: true, tool: 1 },
+    week: { title: "Spend a week in the heat with one worker", does: "Follow a worker’s money through a heatwave, build protection, then try to break it.", time: "15 min", take: "where the money runs out, and what reaches people", href: "/commonshade-preview/a-week-in-the-heat/", tab: true, tool: 1 },
     practical: { title: "Find practical actions", does: "What to do in workplaces, homes, schools, clinics and neighbourhoods.", time: "10 min", take: "actions you can start this season", href: "#practical", tool: 2 },
     pawork: { title: "Find actions for workplaces", does: "Water, rest, shade and work hours that shift with the heat, and what keeps them working.", time: "5 min", take: "measures workers and employers can agree together", href: "#practical-work", tool: 2 },
     pahome: { title: "Find actions for homes", does: "Cooler rooms by day and night, at low cost, and who can help.", time: "5 min", take: "steps a household or a street can take this season", href: "#practical-homes", tool: 2 },
@@ -4197,16 +4197,16 @@ const GUIDE = {
     fourheats: { title: "See the four heats in a home", does: "Outdoor air, the roof, radiant heat and indoor air, by day and by night.", time: "3 min", take: "why a room can be hotter than the forecast", href: "#four-heats" },
     cooling: { title: "Compare cooling options", does: "What to build where people are, and what keeps it working.", time: "10 min", take: "options, costs and running needs", href: "#cooling", tool: 2 },
     finance: { title: "See how protection is paid for", does: "Who pays, how money arrives in time, and whether it lasts.", time: "10 min", take: "where money makes the difference", href: "#finance" },
-    plan: { title: "Plan a response", does: "Six steps from who you protect to a plan you can run, with owners, money and triggers.", time: "30 min", take: "a printable plan", href: "/plan/", tab: true, tool: 3 },
-    planex: { title: "Open a worked plan", does: "Ahmedabad’s heat action plan, loaded into the planner to explore.", time: "5 min", take: "what a working plan contains", href: "/plan/?example=ahmedabad", tab: true, tool: 3 },
-    stress: { title: "Stress-test essential services", does: "A heatwave arrives with a power cut: what keeps running, and what does it depend on?", time: "15 min", take: "the dependencies to resolve first", href: "/plan/#plan-step-5", tab: true, tool: 3 },
-    together: { title: "Make it work together", does: "A coordinator’s simulation: who has to say yes before protection reaches people.", time: "30 min", take: "a place protection plan", href: "/together/", tab: true, tool: 4 },
-    mech: { title: "See how five cities organise for heat", does: "Amadora, Incheon, Cape Town, Quito and Nairobi, side by side.", time: "5 min", take: "mechanisms to adapt, not copy", href: "/plan/#plan-mech", tab: true, tool: 5 },
+    plan: { title: "Plan a response", does: "Six steps from who you protect to a plan you can run, with owners, money and triggers.", time: "30 min", take: "a printable plan", href: "/commonshade-preview/plan/", tab: true, tool: 3 },
+    planex: { title: "Open a worked plan", does: "Ahmedabad’s heat action plan, loaded into the planner to explore.", time: "5 min", take: "what a working plan contains", href: "/commonshade-preview/plan/?example=ahmedabad", tab: true, tool: 3 },
+    stress: { title: "Stress-test essential services", does: "A heatwave arrives with a power cut: what keeps running, and what does it depend on?", time: "15 min", take: "the dependencies to resolve first", href: "/commonshade-preview/plan/#plan-step-5", tab: true, tool: 3 },
+    together: { title: "Make it work together", does: "A coordinator’s simulation: who has to say yes before protection reaches people.", time: "30 min", take: "a place protection plan", href: "/commonshade-preview/together/", tab: true, tool: 4 },
+    mech: { title: "See how five cities organise for heat", does: "Amadora, Incheon, Cape Town, Quito and Nairobi, side by side.", time: "5 min", take: "mechanisms to adapt, not copy", href: "/commonshade-preview/plan/#plan-mech", tab: true, tool: 5 },
     levers: { title: "Find who holds the levers", does: "The institutions that can act, and the cycles each can help break.", time: "5 min", take: "who to talk to", href: "#who-holds" },
     stalls: { title: "See why action stalls", does: "Seven conditions that stall action, and what has moved them.", time: "5 min", take: "the obstacles to expect", href: "#stalls" },
     network: { title: "Browse the heat network", does: "Organisations, funders and lenders already at work.", time: "5 min", take: "partners and gaps", href: "#network" },
-    cworkshop: { title: "Print the community workshop guide", does: "A one-page plan for a 90-minute meeting of a community group or workers’ organisation, in plain language.", time: "1 min", take: "a running order, and a sheet for what you will do and ask", href: "/print/community-workshop-guide/", tab: true },
-    workshop: { title: "Print the workshop guide", does: "A one-page plan for a 90-minute session: which tool when, and for whom.", time: "1 min", take: "a running order for the room", href: "/print/workshop-guide/", tab: true }
+    cworkshop: { title: "Print the community workshop guide", does: "A one-page plan for a 90-minute meeting of a community group or workers’ organisation, in plain language.", time: "1 min", take: "a running order, and a sheet for what you will do and ask", href: "/commonshade-preview/print/community-workshop-guide/", tab: true },
+    workshop: { title: "Print the workshop guide", does: "A one-page plan for a 90-minute session: which tool when, and for whom.", time: "1 min", take: "a running order for the room", href: "/commonshade-preview/print/workshop-guide/", tab: true }
   },
   paths: {
     "understand:5": ["film", "loop"], "understand:30": ["tour", "loop", "day", "atrisk", "city"], "understand:workshop": ["workshop", "film", "day", "week", "stalls"],
@@ -4216,11 +4216,11 @@ const GUIDE = {
     "community:5": ["pawork", "pahome"], "community:30": ["week", "pawork", "pahome", "fourheats"], "community:workshop": ["cworkshop", "week", "pawork", "paneighbour", "together"]
   },
   toolkit: [
-    { n: 1, verb: "Feel it", name: "A week in the heat", href: "/a-week-in-the-heat/", tab: true, who: "Funders, officials, NGOs, workers’ organisations", time: "15 min", take: "Where a worker’s money runs out, and which protection actually reaches them.", icon: "feel" },
+    { n: 1, verb: "Feel it", name: "A week in the heat", href: "/commonshade-preview/a-week-in-the-heat/", tab: true, who: "Funders, officials, NGOs, workers’ organisations", time: "15 min", take: "Where a worker’s money runs out, and which protection actually reaches them.", icon: "feel" },
     { n: 2, verb: "Find what works", name: "Practical actions and cooling options", href: "/#practical", who: "Anyone who can act this season", time: "10–20 min", take: "Actions by setting, with who does them, what they cost and what keeps them working.", icon: "find" },
-    { n: 3, verb: "Plan it", name: "Plan a response", href: "/plan/", tab: true, who: "City, health and disaster teams; NGOs", time: "30–60 min", take: "A plan with owners, money, triggers and a stress test of essential services.", icon: "plan" },
-    { n: 4, verb: "Make it work together", name: "The coordinator’s simulation", href: "/together/", tab: true, who: "NGOs, community and volunteer groups convening a place", time: "30 min", take: "Who has to say yes, what breaks if they don’t, and a place protection plan.", icon: "together" },
-    { n: 5, verb: "Learn from others", name: "How five cities organise for heat", href: "/plan/#plan-mech", tab: true, who: "Anyone designing a response", time: "5 min", take: "Mechanisms to adapt, and what to check before you do.", icon: "learn" }
+    { n: 3, verb: "Plan it", name: "Plan a response", href: "/commonshade-preview/plan/", tab: true, who: "City, health and disaster teams; NGOs", time: "30–60 min", take: "A plan with owners, money, triggers and a stress test of essential services.", icon: "plan" },
+    { n: 4, verb: "Make it work together", name: "The coordinator’s simulation", href: "/commonshade-preview/together/", tab: true, who: "NGOs, community and volunteer groups convening a place", time: "30 min", take: "Who has to say yes, what breaks if they don’t, and a place protection plan.", icon: "together" },
+    { n: 5, verb: "Learn from others", name: "How five cities organise for heat", href: "/commonshade-preview/plan/#plan-mech", tab: true, who: "Anyone designing a response", time: "5 min", take: "Mechanisms to adapt, and what to check before you do.", icon: "learn" }
   ],
   // the running order for a 90-minute workshop (print/workshop-guide)
   workshop: [

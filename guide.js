@@ -22,7 +22,7 @@
       const attr = s.go === "five" ? 'data-five="start"' : s.go === "story" ? `data-story="${s.story}"` : `data-act="${s.go}"`;
       return `<button type="button" class="btn btn--sm btn--cta" ${attr} data-way-stop="${id}">${label} <span aria-hidden="true">→</span></button>`;
     }
-    const href = !HOME && s.href.startsWith("#") ? "/" + s.href : s.href;
+    const href = !HOME && s.href.startsWith("#") ? "/commonshade-preview/" + s.href : s.href;
     const target = s.tab ? ' target="_blank" rel="noopener"' : !HOME ? ' target="bth-map"' : "";
     return `<a class="btn btn--sm btn--cta" href="${esc(href)}"${target} data-way-stop="${id}">${label}${s.tab ? `${NEW_TAB} <span aria-hidden="true">↗</span>` : ' <span aria-hidden="true">→</span>'}</a>`;
   }
@@ -92,7 +92,7 @@
   function renderSignpost() {
     const el = document.getElementById("signpost");
     if (el) { const n = +el.dataset.step, t = G.toolkit.find(x => x.n === n), next = G.toolkit.find(x => x.n === n + 1);
-      if (t) el.innerHTML = `<div class="container signpost__in"><a href="/guide/">Your toolkit</a><span class="signpost__steps" aria-hidden="true">${G.toolkit.map(x => `<i class="${x.n <= n ? "on" : ""}"></i>`).join("")}</span>
+      if (t) el.innerHTML = `<div class="container signpost__in"><a href="/commonshade-preview/guide/">Your toolkit</a><span class="signpost__steps" aria-hidden="true">${G.toolkit.map(x => `<i class="${x.n <= n ? "on" : ""}"></i>`).join("")}</span>
         <span>Step ${n} of ${G.toolkit.length}: <b>${esc(t.verb)}</b></span>${next ? `<span>Next: <a href="${esc(next.href)}"${next.tab ? ' target="_blank" rel="noopener"' : ""}>${esc(next.verb)}: ${esc(next.name)}${next.tab ? NEW_TAB : ""} <span aria-hidden="true">→</span></a></span>` : ""}</div>`; }
     const bx = document.getElementById("signpost-box");
     if (bx) { const t = G.toolkit.find(x => x.n === +bx.dataset.step);

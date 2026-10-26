@@ -1,10 +1,10 @@
-/* Common Shade: the "Heat in the news, and new research" page (/news/).
+/* Common Shade: the "Heat in the news, and new research" page (/commonshade-preview/news/).
    News: feeds/news.json, refreshed every six hours by .github/workflows/heat-news.yml from the GDELT Project and
    regional news outlets' RSS feeds, read from GitHub so a new headline shows without a site rebuild. Research: Europe PMC, searched live. */
 (function () {
   "use strict";
   const FEEDS = {
-    news: { url: "https://raw.githubusercontent.com/arunbh2/beattheheat-asia/main/feeds/news.json", local: "/feeds/news.json", staleDays: 2 },
+    news: { url: "https://raw.githubusercontent.com/arunbh2/beattheheat-asia/main/feeds/news.json", local: "/commonshade-preview/feeds/news.json", staleDays: 2 },
     research: { days: 120,
       title: '(TITLE:"heatwave" OR TITLE:"heatwaves" OR TITLE:"heat wave" OR TITLE:"heat waves" OR TITLE:"extreme heat" OR TITLE:"heat stress" OR TITLE:"heat-related" OR TITLE:"heat exposure" OR TITLE:"heat illness" OR TITLE:"heatstroke" OR TITLE:"heat stroke" OR TITLE:"ambient temperature")',
       place: '(India OR Bangladesh OR Nepal OR "Sri Lanka" OR Pakistan OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR "South Asia" OR "Southeast Asia")',

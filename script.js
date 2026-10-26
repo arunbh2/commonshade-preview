@@ -37,7 +37,7 @@
   const LABEL_K = 0.9;               // zoom level at which every label is shown
   const COLORS = { hub: "#F26430", red: "#D7263D", ink: "#16202B" };
 
-  // the plan has a page of its own (/plan/); there the map's parts are absent, so stand-ins keep the shared code running
+  // the plan has a page of its own (/commonshade-preview/plan/); there the map's parts are absent, so stand-ins keep the shared code running
   const PLAN_PAGE = document.body.dataset.page === "plan";
   const need = (id, tag) => document.getElementById(id) || (PLAN_PAGE ? (tag === "svg" ? document.createElementNS("http://www.w3.org/2000/svg", "svg") : document.createElement(tag || "div")) : null);
   const svg = need("web", "svg");
@@ -202,7 +202,7 @@
   const whenTag = v => v.when && WHEN[v.when] ? `<span class="when when--${v.when}">${WHEN[v.when]}</span>` : "";
   const evidenceOf = id => (typeof EVIDENCE !== "undefined" && EVIDENCE[id]) || [];
   // a link to a printable one-pager in /print/ (opens in a new tab)
-  const printLink = (slug, text) => `<a class="print-link" href="/print/${slug}/" target="_blank" rel="noopener"><span class="print-ico" aria-hidden="true"></span>${esc(text)}<span class="visually-hidden"> (printable page, opens in a new tab)</span></a>`;
+  const printLink = (slug, text) => `<a class="print-link" href="/commonshade-preview/print/${slug}/" target="_blank" rel="noopener"><span class="print-ico" aria-hidden="true"></span>${esc(text)}<span class="visually-hidden"> (printable page, opens in a new tab)</span></a>`;
   const extLink = (url, text) => `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a>`;
   // the heat network: organisations already working on each lever
   const ORGS = typeof ORGANISATIONS !== "undefined" ? ORGANISATIONS : [];
@@ -2704,7 +2704,7 @@
     if (typeof HEAT_WEEK === "undefined") return "";
     const k = HEAT_WEEK.countries.find(x => x.name === c.country); if (!k) return "";
     const ps = HEAT_WEEK.people.filter(x => x.country === k.id); if (!ps.length) return "";
-    const href = ps.length === 1 ? `/a-week-in-the-heat/?p=${ps[0].id}` : `/a-week-in-the-heat/?c=${k.id}`;
+    const href = ps.length === 1 ? `/commonshade-preview/a-week-in-the-heat/?p=${ps[0].id}` : `/commonshade-preview/a-week-in-the-heat/?c=${k.id}`;
     const text = ps.length === 1 ? `A week in the heat with ${ps[0].name}, ${ps[0].role.toLowerCase()}` : `A week in the heat with ${ps.length} workers in ${k.name}`;
     return `<a href="${href}" target="_blank" rel="noopener">${esc(text)}<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a>`;
   };
@@ -2840,7 +2840,7 @@
           <p class="cp__note">Listing does not imply partnership, affiliation or endorsement.</p>
         </div>
       </div>
-      <p class="cp__foot">Share this city: <a href="#city-${p.id}">commonshade.org/#city-${p.id}</a> · <a href="/cities/${p.id}/">Read it as a page</a> · ${printLink(`city-${p.id}`, `Print a one-page brief for ${c.name}`)} · ${printLink("dry-and-humid-heat", "Print: dry and humid heat")}</p>`;
+      <p class="cp__foot">Share this city: <a href="#city-${p.id}">commonshade.org/#city-${p.id}</a> · <a href="/commonshade-preview/cities/${p.id}/">Read it as a page</a> · ${printLink(`city-${p.id}`, `Print a one-page brief for ${c.name}`)} · ${printLink("dry-and-humid-heat", "Print: dry and humid heat")}</p>`;
   }
 
   function cityDots() {
@@ -3108,7 +3108,7 @@
   /* ======================= THE PLAN, ON ITS OWN PAGE ======================= */
   // The plan lives at /plan/, opened in one named tab ("bth-plan") so repeated clicks reuse it. Both pages keep the
   // plan in this browser; a "storage" event tells each page when the other has changed it.
-  const PLAN_URL = "/plan/", PLAN_TAB = "bth-plan";
+  const PLAN_URL = "/commonshade-preview/plan/", PLAN_TAB = "bth-plan";
   const goToPlan = (hash, query) => { track("plan-open"); const w = window.open(PLAN_URL + (query || "") + (hash ? "#" + hash : ""), PLAN_TAB); if (w) try { w.focus(); } catch (e) {} };
   function readPlan(raw) {
     try { const saved = JSON.parse(raw || "null"); if (!saved || !Array.isArray(saved.levers)) return false;

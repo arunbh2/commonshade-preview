@@ -1,4 +1,4 @@
-/* Common Shade: Make it work together (part 33 of data.js), on its own page (/together/).
+/* Common Shade: Make it work together (part 33 of data.js), on its own page (/commonshade-preview/together/).
    A coordinator's simulation for any NGO or volunteer group: choose a hypothetical place, see what heat means for the
    people who work there, find who has to say yes, build the delivery chain for each measure, run a hot week and see
    what reached people. A requirement counts only at the status it needs, and "agreed" or beyond only with evidence.

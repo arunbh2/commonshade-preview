@@ -8,7 +8,7 @@
   const extLink = (url, text) => `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a>`;
   const plural = (n, one, many) => `${n} ${n === 1 ? one : (many || one + "s")}`;
   const track = name => { try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: name, title: name, event: true }); } catch (e) {} };
-  const W = HEAT_WEEK, M = Object.fromEntries(W.measures.map(m => [m.id, m])), KEY = "bth-heatweek-v1", PAGE = "/a-week-in-the-heat/";
+  const W = HEAT_WEEK, M = Object.fromEntries(W.measures.map(m => [m.id, m])), KEY = "bth-heatweek-v1", PAGE = "/commonshade-preview/a-week-in-the-heat/";
   const LIVE = typeof LIVE_CITIES !== "undefined" ? LIVE_CITIES : [];
   const citiesOf = c => LIVE.filter(x => x.country === c.name);
 

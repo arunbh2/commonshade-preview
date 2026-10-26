@@ -2075,7 +2075,7 @@ body.film-open { overflow: hidden; }
 body:not([data-page="plan"]) a[href^="#plan-"]::after, body:not([data-page="plan"]) .cp__links a[href="#plan"]::after { content: "\00a0↗"; }
 .plan-launch__ex a { color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; font-weight: 600; }
 
-/* Make it work together: a coordinator's simulation (/together/) */
+/* Make it work together: a coordinator's simulation (/commonshade-preview/together/) */
 .tg-hero { padding: clamp(36px, 6vw, 72px) 0 12px; background: linear-gradient(180deg, #FFF3E4 0%, var(--canvas) 100%); }
 .tg-hero h1.h2 { margin-top: 0; }
 .tg-promise { margin-top: 20px; max-width: 60rem; padding: 14px 18px; border-radius: 14px; background: #E8F3F1; border-left: 4px solid #1D6E64; font-size: .92rem; }
@@ -2350,7 +2350,7 @@ body:not([data-page="plan"]) a[href^="#plan-"]::after, body:not([data-page="plan
 .wk-start { margin: 24px 0 12px; font-size: 1rem; line-height: 1.5rem; }
 .pm { margin-top: 32px; }
 
-/* ---------- Heat in the news, and new research (/news/) ---------- */
+/* ---------- Heat in the news, and new research (/commonshade-preview/news/) ---------- */
 .news-page { background: var(--ink); color: var(--canvas); padding: clamp(36px, 6vw, 72px) 0 clamp(48px, 7vw, 96px); }
 .news-page .eyebrow { color: #F6A27C; }
 .news-page__h { margin-top: 0; color: var(--canvas); }
@@ -2368,7 +2368,7 @@ body:not([data-page="plan"]) a[href^="#plan-"]::after, body:not([data-page="plan
 .feeds-link b { font-family: var(--font-display); font-weight: 400; text-transform: uppercase; font-size: clamp(1.4rem, 1.1rem + 1.2vw, 2rem); line-height: 1.05; }
 .feeds-link span { color: #C9CED6; }
 
-/* ---------- Join the collaborative (/join/) and the invitation card (join.js) ---------- */
+/* ---------- Join the collaborative (/commonshade-preview/join/) and the invitation card (join.js) ---------- */
 .join-hero { background: var(--ink); color: var(--canvas); padding: clamp(40px, 7vw, 88px) 0 clamp(36px, 6vw, 72px); }
 .join-hero__in { display: grid; gap: 32px; align-items: end; }
 .join-hero .eyebrow { color: #F6A27C; }
