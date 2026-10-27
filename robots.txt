@@ -1,3 +1,3 @@
-# Private preview of the rename. Not for search engines.
+# Private preview. Not for search engines.
 User-agent: *
 Disallow: /
