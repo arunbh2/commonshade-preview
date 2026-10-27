@@ -1,5 +1,3 @@
 # Common Shade: preview
 
-A preview of the site's new name, served at https://arunbh2.github.io/commonshade-preview/ . It is the same site with paths adjusted for this sub-folder, no custom domain, and search engines asked not to index it.
-
-The clean version, ready to bring into the live repository on switch day, is the `rebrand` branch.
+A preview served at https://arunbh2.github.io/commonshade-preview/ . It is the live site with proposed design changes, paths adjusted for this sub-folder, no custom domain, and search engines asked not to index it. Current proposal: the canopy-scene opening on the home page.

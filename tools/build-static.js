@@ -10,7 +10,7 @@
    and cited. They are generated: edit data.js, not the pages.
    ========================================================== */
 const fs = require("fs"), path = require("path"), vm = require("vm");
-const ROOT = path.join(__dirname, ".."), SITE = "https://commonshade.org";
+const ROOT = path.join(__dirname, ".."), SITE = "https://beattheheat.asia";
 const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { SYSTEMS, CONSEQUENCES, LINKS, LOOP_GROUPS, LOOPS, INSTITUTIONS, LEVERS, LOOP_PLACES, EVIDENCE, ORG_ROLES,
@@ -44,8 +44,8 @@ const PAGES = [
   { slug: "practical-actions", title: "Practical actions against extreme heat, by setting", short: "Practical actions" },
   { slug: "paying-for-protection", title: "Paying for heat protection: who pays, how money arrives, and whether it lasts", short: "Paying for protection" }
 ];
-const LICENCE = "Text, data, films and illustrations © Common Shade contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to commonshade.org. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.";
-const DISCLAIMER = "This is a beta version. Common Shade is being built by a group of organisations working on extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.";
+const LICENCE = "Text, data, films and illustrations © Common Shade contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.";
+const DISCLAIMER = "Common Shade is in beta, currently at beattheheat.asia. A group of organisations is helping shape it as a shared endeavour for protection from extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.";
 
 function page(p, intro, body, extraLd) {
   const url = `${SITE}/${p.slug}/`;
@@ -98,7 +98,7 @@ ${ld.map(x => `  <script type="application/ld+json">${JSON.stringify(x)}</script
     <a class="cta" href="/">Open the interactive map</a>
 ${body}
   </main>
-  <footer><p>${esc(DISCLAIMER)}</p><p>Text, data, films and illustrations © Common Shade contributors, shared under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>: copy, adapt and translate them, with credit and a link to commonshade.org. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’.</p><p>Generated from the map’s data on ${TODAY}. The whole map as plain text: <a href="/llms-full.txt">llms-full.txt</a>.</p></footer>
+  <footer><p>${esc(DISCLAIMER)}</p><p>Text, data, films and illustrations © Common Shade contributors, shared under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>: copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’.</p><p>Generated from the map’s data on ${TODAY}. The whole map as plain text: <a href="/llms-full.txt">llms-full.txt</a>.</p></footer>
 </body>
 </html>
 `;
@@ -323,7 +323,7 @@ const CITY_PAGES = [];
   const val = (c, k) => k === "who" ? c.who.map(inst).join(", ") : k === "evidence" ? c.evidence.text : k === "worksIf" ? c.worksIf.join("; ") + "." : c[k];
   let h = `<p class="meta">Evidence labels: ${Object.values(D.EVIDENCE_STATUS).map(x => `<strong>${esc(x.name)}</strong>: ${esc(x.text)}`).join(" ")}</p><p><strong>Start from a question:</strong> ${D.ACTION_JOURNEYS.map(j => j.go === "stalls" ? `<a href="/#stalls">${esc(j.q)}</a>` : j.go === "finance" ? `<a href="/paying-for-protection/">${esc(j.q)}</a>` : `<a href="#${j.go}">${esc(j.q)}</a>`).join(" · ")}</p>`, m = [`## ${p.title}`, intro];
   D.ACTION_SETTINGS.forEach(st => {
-    h += `<h2 id="${st.id}">${esc(st.name)}</h2><p>${esc(st.intro)} <a href="/print/actions-${st.id}/">Print these cards</a> · <a href="/#practical-${st.id}">Open them on the map</a>${st.cool ? ` · <a href="/cooling-options/#${st.cool}">Options, costs and traps</a>` : ""}</p>`;
+    h += `<h2 id="${st.id}">${esc(st.name)}</h2><p>${esc(st.intro)} <a href="/print/actions-${st.id}/">Print these cards</a> · <a href="/practical/#practical-${st.id}">Open them in the interactive version</a>${st.cool ? ` · <a href="/cooling-options/#${st.cool}">Options, costs and traps</a>` : ""}</p>`;
     m.push(`### ${st.name}`, st.intro);
     if (st.problems) { h += `<p><strong>What workers told researchers:</strong> ${st.problems.map(x => esc(x.q)).join(" · ")}. ${ext(st.problemsSource.url, st.problemsSource.label)}</p>`; m.push(`What workers told researchers: ${st.problems.map(x => x.q).join("; ")} (${st.problemsSource.label}, ${st.problemsSource.url})`); }
     st.cards.forEach(c => {
@@ -377,7 +377,7 @@ fs.writeFileSync(path.join(ROOT, "llms.txt"), `# Common Shade
 
 ${about}
 
-Common Shade was called BeatTheHeat.Asia (beattheheat.asia) until 2026. It is independent of the Beat the Heat initiative that UNEP's Cool Coalition runs with the COP30 Presidency.
+Common Shade's beta platform is at beattheheat.asia and is moving to commonshade.asia; it was first published as BeatTheHeat.Asia. It is independent of the Beat the Heat initiative that UNEP's Cool Coalition runs with the COP30 Presidency.
 
 ${DISCLAIMER}
 
@@ -407,6 +407,9 @@ fs.writeFileSync(path.join(ROOT, "sitemap.xml"), `<?xml version="1.0" encoding="
   <url><loc>${SITE}/plan/</loc><lastmod>${TODAY}</lastmod><priority>0.9</priority></url>
   <url><loc>${SITE}/together/</loc><lastmod>${TODAY}</lastmod><priority>0.9</priority></url>
   <url><loc>${SITE}/guide/</loc><lastmod>${TODAY}</lastmod><priority>0.9</priority></url>
+  <url><loc>${SITE}/practical/</loc><lastmod>${TODAY}</lastmod><priority>0.9</priority></url>
+  <url><loc>${SITE}/finance/</loc><lastmod>${TODAY}</lastmod><priority>0.8</priority></url>
+  <url><loc>${SITE}/sources/</loc><lastmod>${TODAY}</lastmod><priority>0.6</priority></url>
   <url><loc>${SITE}/join/</loc><lastmod>${TODAY}</lastmod><priority>0.7</priority></url>
   <url><loc>${SITE}/news/</loc><lastmod>${TODAY}</lastmod><priority>0.7</priority></url>
 ${[...PAGES, ...CITY_PAGES].map(p => `  <url><loc>${SITE}/${p.slug}/</loc><lastmod>${TODAY}</lastmod><priority>0.8</priority></url>`).join("\n")}
@@ -433,3 +436,6 @@ require("./build-print")().then(list => {
   console.log("Wrote", list.length, "printable one-pagers");
 });
 console.log("Wrote", PAGES.length + CITY_PAGES.length, "pages, llms.txt, llms-full.txt, sitemap.xml and robots.txt");
+
+// ---- /sources/: every source the site cites ----
+require("./build-sources.js");
