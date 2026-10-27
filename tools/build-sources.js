@@ -17,7 +17,7 @@ vm.runInContext(src + `\n;Object.assign(this, { ${names.join(", ")} });`, ctx);
 // where on the site each part of data.js appears
 const WHERE = [
   [/^(SYSTEMS|CONSEQUENCES|LINKS)$/, "The web"], [/^(LOOP|STORIES)/, "Vicious cycles"], [/^(LEVERS|PLAYBOOKS|PACKAGES|EVIDENCE$)/, "Actions"],
-  [/^INSTITUTIONS$/, "Who holds the levers"], [/^ORG/, "The heat network"], [/^(GLOSS|NBS_BOOK)/, "Glossary"],
+  [/^INSTITUTIONS$/, "Who can act"], [/^ORG/, "The heat network"], [/^(GLOSS|NBS_BOOK)/, "Glossary"],
   [/^(PLAN_|WORKED_|WHO_ELEMENTS|MCR2030)/, "Plan a response"], [/^AT_RISK/, "Who heat hits hardest"], [/^STALLS$/, "Why action stalls"],
   [/^(COOL_|HOME_HEATS)/, "Cooling options"], [/^LIVE_/, "Heat right now"], [/^HEATWAVE_DAY$/, "A day in a heatwave"], [/^HEATWAVES/, "Heatwaves that shaped Asia"],
   [/^CITY_/, "Your city"], [/^(ACTION_|EVIDENCE_STATUS)/, "Find practical actions"], [/^FINANCE$/, "Paying for protection"],
@@ -114,7 +114,8 @@ const html = `<!DOCTYPE html>
     </div>
   </header>
   <main class="refs">
-    <div class="container">
+    <div class="container has-spot">
+      <svg class="spot spot--method" viewBox="0 0 260 160" aria-hidden="true" focusable="false"><g fill="none" stroke="#16202B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M10 150 H250" opacity=".4"/><circle cx="40" cy="60" r="7"/><circle cx="96" cy="40" r="7"/><circle cx="90" cy="100" r="7"/><circle cx="150" cy="70" r="7"/><path d="M46 57 L89 43 M45 66 L84 96 M97 47 L92 93 M103 43 L143 66 M96 98 L144 74" opacity=".6"/><circle cx="160" cy="80" r="26" stroke="#F26430"/><path d="M178 99 L200 122" stroke="#F26430" stroke-width="5"/><circle cx="226" cy="88" r="8"/><path d="M226 96 V122 M226 122 L218 150 M226 122 L234 150 M226 102.0 L208 94.0"/></g></svg>
       <p class="eyebrow">Sources and references</p>
       <h1 class="h2 refs__h">Everything we cite, <br>in one place.</h1>
       <p class="refs__intro">Every claim on Common Shade links to its source. Here are all ${total} of them: ${counts.ref} papers, reports, guidance and datasets; ${counts.org} organisations; and ${counts.data} live services. Each shows where on the site it is used. Search by title, publisher or topic.</p>
@@ -134,6 +135,13 @@ ${all.filter(x => x.kind === g.kind).map(x => "          " + li(x)).join("\n")}
       <p class="refs__none" id="refs-none" hidden>No source matches that search.</p>
     </div>
   </main>
+  <aside class="foot-close" aria-label="Common Shade">
+    <div class="container">
+      <svg class="foot-close__art" viewBox="0 0 132 72" aria-hidden="true" focusable="false"><path d="M8 22 Q66 0 124 22 L124 28 Q66 8 8 28 Z" fill="#F26430"/><g fill="none" stroke="#16202B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M14 27 V70 M118 27 V70 M66 13 V70"/><circle cx="28" cy="40" r="5"/><path d="M28 45 V58 L22 70 M28 58 L34 70 M28 49 L14 42"/><circle cx="104" cy="40" r="5"/><path d="M104 45 V58 L98 70 M104 58 L110 70 M104 49 L118 42"/><circle cx="80" cy="46" r="4"/><path d="M80 50 V60 L76 70 M80 60 L84 70 M80 53 L66 48"/><path d="M4 70 H128" opacity=".35"/></g></svg>
+      <p class="foot-close__line">Shade is something we hold up together.</p>
+      <a class="foot-close__go" href="/join/">Help build Common Shade&nbsp;<span aria-hidden="true">→</span></a>
+    </div>
+  </aside>
   <footer class="wkp-foot">
     <div class="container">
       <p>Links go to the original publishers, which hold their own rights. Found a broken link or a better source? Tell us through <a href="/join/">Help build Common Shade</a>. <a href="/">Back to the map of extreme heat</a></p>
