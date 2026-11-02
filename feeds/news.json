@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-01T22:13:28.845Z",
+ "updated": "2026-11-02T06:29:15.203Z",
  "keepDays": 14,
  "sources": [
   {
    "name": "regional news outlets",
    "ok": true,
-   "found": 486
+   "found": 502
   },
   {
    "name": "GDELT Project",
