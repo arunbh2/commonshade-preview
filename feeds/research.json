@@ -1,607 +1,607 @@
 {
- "updated": "2026-11-05T07:03:18.660Z",
+ "updated": "2026-11-05T20:08:36.956Z",
  "days": 120,
- "source": "OpenAlex",
+ "source": "Europe PMC",
  "items": [
   {
-   "title": "Heatwaves as Invisible Disasters: Disability, Climate Justice, and Urban and Peri-Urban Risk Reduction in Bangladesh",
-   "journal": "International Journal of Disaster Risk Science",
-   "date": "2026-11-03",
-   "doi": "10.1007/s13753-026-00778-y",
-   "pmid": "",
+   "title": "Effects of a 3-day simulated heatwave on physiological and functional outcomes in older adults in Canada: a single-site randomised crossover trial.",
+   "journal": "The Lancet. Planetary health",
+   "date": "2027-07-28",
+   "doi": "10.1016/j.lanplh.2026.101517",
+   "pmid": "42815509",
    "preprint": false,
-   "url": "https://doi.org/10.1007/s13753-026-00778-y",
-   "firstAuthor": "Arifatul Kibria"
-  },
-  {
-   "title": "Indoor heatwave risk in Bangladeshi buildings and Rohingya shelters to 2050",
-   "journal": "Zenodo (CERN European Organization for Nuclear Research)",
-   "date": "2026-11-03",
-   "doi": "10.5281/zenodo.23924731",
-   "pmid": "",
-   "preprint": true,
-   "url": "https://doi.org/10.5281/zenodo.23924731",
-   "firstAuthor": "Md.  Meraz Hasan"
-  },
-  {
-   "title": "Marine Heatwave Detection and Dynamics in the Indonesian Seas under ENSO and Indian Ocean Dipole Forcing",
-   "journal": "Mendeley Data",
-   "date": "2026-11-03",
-   "doi": "10.17632/7j9fj923t9",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.17632/7j9fj923t9",
-   "firstAuthor": "Qurnia Wulan Sari"
-  },
-  {
-   "title": "Occupational heat stress in nurses working in hot environments and wearing personal protective equipment: mechanisms, health and safety implications, and prevention",
-   "journal": "Frontiers in Public Health",
-   "date": "2026-11-02",
-   "doi": "10.3389/fpubh.2026.1986823",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.3389/fpubh.2026.1986823",
-   "firstAuthor": "Xiaoxue Xu"
+   "url": "https://doi.org/10.1016/j.lanplh.2026.101517",
+   "firstAuthor": "Meade RD"
   },
   {
    "title": "500 years of May temperature variability in Balochistan reconstructed from Juniperus excelsa tree rings: heat stress, growth-collapse extremes, and implications for an endangered relict forest",
-   "journal": "Research Square",
+   "journal": "Preprint",
    "date": "2026-11-02",
    "doi": "10.21203/rs.3.rs-10746072/v1",
    "pmid": "",
    "preprint": true,
    "url": "https://doi.org/10.21203/rs.3.rs-10746072/v1",
-   "firstAuthor": "Mehvish Majeed"
+   "firstAuthor": "Majeed M"
   },
   {
-   "title": "Rising temperatures, shifting population: Changes in children’s ambient heat exposure in China",
-   "journal": "Proceedings of the National Academy of Sciences",
-   "date": "2026-11-02",
-   "doi": "10.1073/pnas.2615409123",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1073/pnas.2615409123",
-   "firstAuthor": "Kai Feng"
-  },
-  {
-   "title": "Decarbonizing U.S. power systems under extreme heat: Solar–wind penetration and multi‐pollutant emission performance",
-   "journal": "Environmental Progress & Sustainable Energy",
-   "date": "2026-11-02",
-   "doi": "10.1002/ep.70788",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1002/ep.70788",
-   "firstAuthor": "Abdallah Elshawadfy Elwakeel"
-  },
-  {
-   "title": "Global health impacts of the 2018–2019 heatwaves and air pollution events under warmer climates",
-   "journal": "npj Clean Air",
-   "date": "2026-11-01",
-   "doi": "10.1038/s44407-026-00113-1",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1038/s44407-026-00113-1",
-   "firstAuthor": "Fuzhen Shen"
-  },
-  {
-   "title": "Extreme heat as an actively marginalised disaster: A layered heat marginalisation framework from Nagpur's non-notified slums",
-   "journal": "International Journal of Disaster Risk Reduction",
-   "date": "2026-10-31",
-   "doi": "10.1016/j.ijdrr.2026.106540",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1016/j.ijdrr.2026.106540",
-   "firstAuthor": "Kamlesh Meshram"
-  },
-  {
-   "title": "Geospatial analysis of urban heat exposure and environmental vulnerability using remote sensing in Khulna City, Bangladesh",
-   "journal": "GeoJournal",
-   "date": "2026-10-31",
-   "doi": "10.1007/s10708-026-11726-0",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1007/s10708-026-11726-0",
-   "firstAuthor": "Md Refath Hossan"
-  },
-  {
-   "title": "New horizons in adaptive capacity and heat-related health in older people: integrating frailty, energy insecurity and social resources",
-   "journal": "Age and Ageing",
-   "date": "2026-10-31",
-   "doi": "10.1093/ageing/afag315",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1093/ageing/afag315",
-   "firstAuthor": "Laura Petraglia"
-  },
-  {
-   "title": "Ambient heat exposure and heatstroke mortality: a state-level spatio-temporal assessment",
-   "journal": "International Journal of Community Medicine and Public Health",
-   "date": "2026-10-30",
-   "doi": "10.18203/2394-6040.ijcmph20264144",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.18203/2394-6040.ijcmph20264144",
-   "firstAuthor": "Meghna Choudhury"
-  },
-  {
-   "title": "Seasonal forecasting of health-related heat stress indices and its enhancement through teleconnection-based subsampling",
-   "journal": "Preprint",
-   "date": "2026-10-30",
-   "doi": "10.5194/egusphere-2026-6640",
-   "pmid": "",
-   "preprint": true,
-   "url": "https://doi.org/10.5194/egusphere-2026-6640",
-   "firstAuthor": "Luca Famooss Paolini"
-  },
-  {
-   "title": "Evidence of Sequentially Compound Heatwave and Extreme Precipitation Events in Pakistan",
-   "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+   "title": "Combining ability and heat-stress response in rice hybrids derived from mutation-derived M₆ lines.",
+   "journal": "Journal of applied genetics",
    "date": "2026-10-29",
-   "doi": "10.5281/zenodo.23762651",
-   "pmid": "",
+   "doi": "10.1007/s13353-026-01126-y",
+   "pmid": "42955562",
    "preprint": false,
-   "url": "https://doi.org/10.5281/zenodo.23762651",
-   "firstAuthor": "Sumayya Ijaz"
+   "url": "https://doi.org/10.1007/s13353-026-01126-y",
+   "firstAuthor": "Iqbal S"
   },
   {
-   "title": "Beyond heatwave vulnerability rankings: Sustainability dimensions and urban vulnerability profiles",
-   "journal": "City and Environment Interactions",
-   "date": "2026-10-29",
-   "doi": "10.1016/j.cacint.2026.100521",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1016/j.cacint.2026.100521",
-   "firstAuthor": "Attila Buzási"
-  },
-  {
-   "title": "Characterisation and forecasting of heatwaves using HWMId: Change-point based time series intervention modelling with machine learning for Western Maharashtra, India",
-   "journal": "Theoretical and Applied Climatology",
-   "date": "2026-10-29",
-   "doi": "10.1007/s00704-026-06698-7",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1007/s00704-026-06698-7",
-   "firstAuthor": "Nobin Chandra Paul"
-  },
-  {
-   "title": "Occupational Heat Exposure and Dehydration Prevention Practices in a Sugar Manufacturing Facility: A Qualitative Assessment in Lampung, Indonesia",
-   "journal": "Biomedical Research and Theory Letters",
-   "date": "2026-10-29",
-   "doi": "10.58524/brtl.v2i2.190",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.58524/brtl.v2i2.190",
-   "firstAuthor": "Rinto Hadiarto"
-  },
-  {
-   "title": "Uncertainty-aware heatwave hazard zoning for India from two gridded temperature records",
-   "journal": "Zenodo (CERN European Organization for Nuclear Research)",
-   "date": "2026-10-28",
-   "doi": "10.5281/zenodo.23735313",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.5281/zenodo.23735313",
-   "firstAuthor": "Ajay Sharma"
-  },
-  {
-   "title": "India Heatwave Benchmark v0.2.0",
-   "journal": "Zenodo (CERN European Organization for Nuclear Research)",
-   "date": "2026-10-28",
-   "doi": "10.5281/zenodo.23721963",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.5281/zenodo.23721963",
-   "firstAuthor": "Aryan Wankhade"
-  },
-  {
-   "title": "A NATA Task Force: Preventing Exertional Heat Stroke Death in American Football Linemen",
-   "journal": "Sports Health A Multidisciplinary Approach",
-   "date": "2026-10-28",
-   "doi": "10.1177/19417381261486272",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1177/19417381261486272",
-   "firstAuthor": "Rebecca L. Stearns"
-  },
-  {
-   "title": "Seasonality and the effect of a marine heatwave on the metabolism of Red Sea coral reefs",
-   "journal": "Scientific Reports",
-   "date": "2026-10-28",
-   "doi": "10.1038/s41598-026-66842-1",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1038/s41598-026-66842-1",
-   "firstAuthor": "Vincent Saderne"
-  },
-  {
-   "title": "Heat exposure and perceived academic functioning among nursing students in a tropical higher education setting: a qualitative study",
-   "journal": "Journal of research in nursing",
+   "title": "Heat exposure and perceived academic functioning among nursing students in a tropical higher education setting: a qualitative study.",
+   "journal": "Journal of research in nursing : JRN",
    "date": "2026-10-28",
    "doi": "10.1177/17449871261486792",
-   "pmid": "",
+   "pmid": "42964391",
    "preprint": false,
    "url": "https://doi.org/10.1177/17449871261486792",
-   "firstAuthor": "Khate Ross Costales"
+   "firstAuthor": "Costales KR"
   },
   {
-   "title": "Black carbon aerosols intensified India’s 2015 mega heatwave and expanded heat stress exposure",
-   "journal": "Communications Earth & Environment",
+   "title": "Intraspecific competition modulates heatwave effects on male reproduction in Drosophila prolongata.",
+   "journal": "Oecologia",
    "date": "2026-10-27",
-   "doi": "10.1038/s43247-026-04157-9",
-   "pmid": "",
+   "doi": "10.1007/s00442-026-06006-0",
+   "pmid": "42944882",
    "preprint": false,
-   "url": "https://doi.org/10.1038/s43247-026-04157-9",
-   "firstAuthor": "Dewashish Tiwari"
+   "url": "https://doi.org/10.1007/s00442-026-06006-0",
+   "firstAuthor": "Gupta S"
   },
   {
-   "title": "Heart rate and blood pressure variability, and baroreflex sensitivity, during heat exposure in persons with type 2 diabetes and hypertension",
-   "journal": "PLoS ONE",
-   "date": "2026-10-27",
-   "doi": "10.1371/journal.pone.0361367",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1371/journal.pone.0361367",
-   "firstAuthor": "Mojdeh Rafieian"
-  },
-  {
-   "title": "Marine heat waves in vulnerable coral reef regions are skillfully predictable on multi-year timescales",
-   "journal": "Nature Communications",
-   "date": "2026-10-27",
-   "doi": "10.1038/s41467-026-78279-1",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1038/s41467-026-78279-1",
-   "firstAuthor": "Alexia Karwat"
-  },
-  {
-   "title": "Intermediate, rather than Isohydric or Anisohydric, Species were More Resilient to an Extreme Heatwave in a Common Garden in Sydney",
-   "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
-   "date": "2026-10-27",
-   "doi": "10.64898/2026.10.23.761478",
-   "pmid": "",
-   "preprint": true,
-   "url": "https://doi.org/10.64898/2026.10.23.761478",
-   "firstAuthor": "Wahidullah Rahmani"
-  },
-  {
-   "title": "Marine heatwaves and chronic warming induce differing impacts to populations in a coral reef fish",
-   "journal": "Preprint",
-   "date": "2026-10-27",
-   "doi": "10.22541/authorea.15011101/v1",
-   "pmid": "",
-   "preprint": true,
-   "url": "https://doi.org/10.22541/authorea.15011101/v1",
-   "firstAuthor": "Yogi Yasutake"
-  },
-  {
-   "title": "Efek Heat Stress terhadap Kesehatan pada Pekerja Pertanian: Tinjauan Literatur Sistematis",
-   "journal": "PubHealth Jurnal Kesehatan Masyarakat",
+   "title": "Projected Exposure of Canadian Children to Rare, High-Severity Heatwaves Under Continued Warming.",
+   "journal": "GeoHealth",
    "date": "2026-10-26",
-   "doi": "10.56211/pubhealth.v5i2.1828",
-   "pmid": "",
+   "doi": "10.1029/2026gh001873",
+   "pmid": "42936684",
    "preprint": false,
-   "url": "https://doi.org/10.56211/pubhealth.v5i2.1828",
-   "firstAuthor": "Salwa Fitriana Chantika"
+   "url": "https://doi.org/10.1029/2026gh001873",
+   "firstAuthor": "Zaerpour M"
   },
   {
    "title": "Prenatal extreme heat exposure and neonatal mortality in Bangladesh, 2015 to 2025: a national birth-history study",
-   "journal": "medRxiv",
+   "journal": "Preprint",
    "date": "2026-10-26",
    "doi": "10.64898/2026.10.23.26366352",
    "pmid": "",
    "preprint": true,
    "url": "https://doi.org/10.64898/2026.10.23.26366352",
-   "firstAuthor": "S.M. Ashraf Ul Hoque"
+   "firstAuthor": "Hoque SMAU"
   },
   {
-   "title": "Spatiotemporal trends in heat stress across Bangladesh from 1981 to 2023 using ERA5 temperature, relative humidity, and Heat Index",
-   "journal": "Discover Hazards",
-   "date": "2026-10-25",
-   "doi": "10.1007/s44475-026-00075-8",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1007/s44475-026-00075-8",
-   "firstAuthor": "Pingku Chandra Barman"
-  },
-  {
-   "title": "Heat stress intensification and workforce exposure over the Indian region",
-   "journal": "Acta Geophysica",
-   "date": "2026-10-25",
-   "doi": "10.1007/s11600-026-02062-5",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1007/s11600-026-02062-5",
-   "firstAuthor": "AKANKSHA SINHA"
-  },
-  {
-   "title": "Early disaster response to extreme heat in modern Shanghai, 1873–1949: limited preparedness and unequal protection",
-   "journal": "Humanities and Social Sciences Communications",
-   "date": "2026-10-24",
-   "doi": "10.1057/s41599-026-09515-8",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1057/s41599-026-09515-8",
-   "firstAuthor": "Qi Hu"
-  },
-  {
-   "title": "The Impact of Heatwave Exposure and Climate Change on Maternal Health and Pregnancy Outcomes: A Public Health Review",
-   "journal": "Miracle Get Journal",
-   "date": "2026-10-24",
-   "doi": "10.69855/mgj.v3i3.887",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.69855/mgj.v3i3.887",
-   "firstAuthor": "Muhammad Iqbal"
-  },
-  {
-   "title": "Climate-induced extreme heat associated with suicide risk mediated by poor sleep and emotional dysregulation: A nationally representative panel study from Bangladesh",
-   "journal": "Environmental Research",
+   "title": "Climate-induced extreme heat associated with suicide risk mediated by poor sleep and emotional dysregulation: A nationally representative panel study from Bangladesh.",
+   "journal": "Environmental research",
    "date": "2026-10-24",
    "doi": "10.1016/j.envres.2026.125991",
-   "pmid": "",
+   "pmid": "42925946",
    "preprint": false,
    "url": "https://doi.org/10.1016/j.envres.2026.125991",
-   "firstAuthor": "Syed Shabab Wahid"
+   "firstAuthor": "Wahid SS"
   },
   {
-   "title": "Extreme Heat and Food Price Inflation in The United Arab Emirates",
-   "journal": "Emirati Journal of Business Economics & Social Studies",
-   "date": "2026-10-23",
-   "doi": "10.54878/3f34ax59",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.54878/3f34ax59",
-   "firstAuthor": "Advika Gupta"
-  },
-  {
-   "title": "Heat stress and urban economic growth in China: Dynamic effects, channels, and evidence from functional data analysis",
-   "journal": "International Journal of Disaster Risk Reduction",
-   "date": "2026-10-23",
-   "doi": "10.1016/j.ijdrr.2026.106524",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1016/j.ijdrr.2026.106524",
-   "firstAuthor": "Weiming Yang"
-  },
-  {
-   "title": "Comparative assessment of reflective and vegetative urban surfaces for pedestrian-level thermal comfort under heatwave conditions",
-   "journal": "Results in Engineering",
-   "date": "2026-10-23",
-   "doi": "10.1016/j.rineng.2026.113734",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1016/j.rineng.2026.113734",
-   "firstAuthor": "Anastasios Petrou"
-  },
-  {
-   "title": "Assessing Heatwave Severity and Trends in the Southwest Coast Region of Bangladesh Using Heat Index",
-   "journal": "International Journal of Environment and Climate Change",
-   "date": "2026-10-23",
-   "doi": "10.9734/ijecc/2026/v16i105746",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.9734/ijecc/2026/v16i105746",
-   "firstAuthor": "Humaira Rahman Logna"
-  },
-  {
-   "title": "Prioritizing heat stress indices for cognitive performance assessment using a Fuzzy Delphi–FAHP framework",
-   "journal": "Scientific Reports",
-   "date": "2026-10-22",
-   "doi": "10.1038/s41598-026-77210-4",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1038/s41598-026-77210-4",
-   "firstAuthor": "Seyed Mahdi Mousavi"
-  },
-  {
-   "title": "Estimating hourly outdoor WBGT from routine meteorological observations for heat-stress assessment in tropical Singapore",
-   "journal": "International Journal of Biometeorology",
+   "title": "Estimating hourly outdoor WBGT from routine meteorological observations for heat-stress assessment in tropical Singapore.",
+   "journal": "International journal of biometeorology",
    "date": "2026-10-22",
    "doi": "10.1007/s00484-026-03349-4",
-   "pmid": "",
+   "pmid": "42911288",
    "preprint": false,
    "url": "https://doi.org/10.1007/s00484-026-03349-4",
-   "firstAuthor": "Po-Yen Lai"
+   "firstAuthor": "Lai PY"
   },
   {
-   "title": "Marine heatwaves in the Northern Indian Ocean as an emerging driver of Indian Summer Monsoon variability",
-   "journal": "Climatic Change",
-   "date": "2026-10-22",
-   "doi": "10.1007/s10584-026-04322-1",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1007/s10584-026-04322-1",
-   "firstAuthor": "Hitesh Gupta"
-  },
-  {
-   "title": "Contrasting physical drivers of chlorophyll a responses to summer marine heatwaves in the South China Sea",
-   "journal": "Ocean science",
-   "date": "2026-10-21",
-   "doi": "10.5194/os-22-3347-2026",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.5194/os-22-3347-2026",
-   "firstAuthor": "方云 路"
-  },
-  {
-   "title": "Marine heatwave exposure is changing unevenly across Scottish aquaculture sites",
-   "journal": "Frontiers in Marine Science",
-   "date": "2026-10-21",
-   "doi": "10.3389/fmars.2026.1963854",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.3389/fmars.2026.1963854",
-   "firstAuthor": "Camila Toledo-Jaime"
-  },
-  {
-   "title": "Genetically determined metabolite variation identifies a heat related pathway in workers at risk of Mesoamerican Nephropathy",
-   "journal": "Scientific Reports",
+   "title": "Dynamic responses of antioxidants in Tharparkar and Sahiwal during heat stress.",
+   "journal": "Tropical animal health and production",
    "date": "2026-10-20",
-   "doi": "10.1038/s41598-026-76047-1",
-   "pmid": "",
+   "doi": "10.1007/s11250-026-05414-x",
+   "pmid": "42902114",
    "preprint": false,
-   "url": "https://doi.org/10.1038/s41598-026-76047-1",
-   "firstAuthor": "Dominick A. Leone"
+   "url": "https://doi.org/10.1007/s11250-026-05414-x",
+   "firstAuthor": "Anjali"
   },
   {
-   "title": "Impact of heatwaves on sources and transformations of ambient volatile organic compounds",
-   "journal": "Preprint",
-   "date": "2026-10-20",
-   "doi": "10.5194/egusphere-2026-5989",
-   "pmid": "",
-   "preprint": true,
-   "url": "https://doi.org/10.5194/egusphere-2026-5989",
-   "firstAuthor": "Wenqi Liu"
+   "title": "Integrating Heat Stress into Circular Livestock Production and Life Cycle Assessment: Toward a Heat-Stress Circularity Index.",
+   "journal": "Animals : an open access journal from MDPI",
+   "date": "2026-10-19",
+   "doi": "10.3390/ani16203290",
+   "pmid": "42939222",
+   "preprint": false,
+   "url": "https://doi.org/10.3390/ani16203290",
+   "firstAuthor": "Papatsiros VG"
   },
   {
-   "title": "Predictive Modeling of Urban Heat Stress Using Machine Learning: A 2050 UTCI-Based Assessment",
-   "journal": "Turkish Journal of Engineering",
+   "title": "Seasonal ambient temperature and particulate matter as discriminators of hyperemesis gravidarum severity: a retrospective comparative observational study",
+   "journal": "Frontiers in public health",
    "date": "2026-10-16",
-   "doi": "10.31127/tuje.1968300",
+   "doi": "",
    "pmid": "",
    "preprint": false,
-   "url": "https://doi.org/10.31127/tuje.1968300",
-   "firstAuthor": "Ninitha Arumugakani"
-  },
-  {
-   "title": "ENSO-Flavor Differences in Indonesian Marine Heatwaves: Satellite SST, Physical Covariates, and Coral Habitat Suitability",
-   "journal": "Remote Sensing",
-   "date": "2026-10-16",
-   "doi": "10.3390/rs18203555",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.3390/rs18203555",
-   "firstAuthor": "Qiyuan Xiao"
-  },
-  {
-   "title": "Regime Shifts During Compound Drought‐Heatwave Events Amplify Ecosystem and Heat Stress Risks",
-   "journal": "Geophysical Research Letters",
-   "date": "2026-10-15",
-   "doi": "10.1029/2026gl125653",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1029/2026gl125653",
-   "firstAuthor": "Yi Yang"
-  },
-  {
-   "title": "The association between extreme heat and sperm quality in a chronically heat-exposed population",
-   "journal": "Environmental Epidemiology",
-   "date": "2026-10-15",
-   "doi": "10.1097/ee9.0000000000000533",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1097/ee9.0000000000000533",
-   "firstAuthor": "Samuel H Gunther"
-  },
-  {
-   "title": "Multiscale vascular responses to passive heat stress: from endothelial injury to adaptive remodeling",
-   "journal": "Frontiers in Climate",
-   "date": "2026-10-14",
-   "doi": "10.3389/fclim.2026.1842881",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.3389/fclim.2026.1842881",
-   "firstAuthor": "Linke Zhong"
-  },
-  {
-   "title": "Unprecedented late-summer mega-heatwave over the Yangtze River Basin in 2024: dynamical fingerprint of extreme anomalous atmospheric circulation variability",
-   "journal": "Environmental Research Letters",
-   "date": "2026-10-14",
-   "doi": "10.1088/1748-9326/aeb434",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1088/1748-9326/aeb434",
-   "firstAuthor": "Xiao Li"
-  },
-  {
-   "title": "Wetland loss amplifies regional heat exposure: insights from the 2023 Southeast Asia heatwave",
-   "journal": "Frontiers in Climate",
-   "date": "2026-10-14",
-   "doi": "10.3389/fclim.2026.1843008",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.3389/fclim.2026.1843008",
-   "firstAuthor": "Chang Liu"
-  },
-  {
-   "title": "How do heat waves and high ambient temperatures impact the incidence of stroke in South Asian populations, particularly in urban centers like Delhi and Mumbai?",
-   "journal": "Zenodo (CERN European Organization for Nuclear Research)",
-   "date": "2026-10-14",
-   "doi": "10.5281/zenodo.23361698",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.5281/zenodo.23361698",
-   "firstAuthor": "Tripdatabase"
+   "url": "https://europepmc.org/article/PMC/PMC13658146",
+   "firstAuthor": "Akbulut Ş"
   },
   {
    "title": "Rising global population coexposure to heatwaves and landscape fire-sourced air pollution",
-   "journal": "Science Advances",
-   "date": "2026-10-14",
-   "doi": "10.1126/sciadv.aea9749",
+   "journal": "Science advances",
+   "date": "2026-10-16",
+   "doi": "",
    "pmid": "",
    "preprint": false,
-   "url": "https://doi.org/10.1126/sciadv.aea9749",
-   "firstAuthor": "Yao Yu Wu"
+   "url": "https://europepmc.org/article/PMC/PMC13666011",
+   "firstAuthor": "Wu Y"
   },
   {
-   "title": "Thermal resilience under climate extremes: simulation-based assessment of heatwave impacts in informal buildings in Cairo",
-   "journal": "Journal of Engineering and Applied Science",
-   "date": "2026-10-14",
-   "doi": "10.1186/s44147-026-01232-y",
+   "title": "The association between extreme heat and sperm quality in a chronically heat-exposed population: An observational study in Singapore.",
+   "journal": "Environmental epidemiology (Philadelphia, Pa.)",
+   "date": "2026-10-15",
+   "doi": "10.1097/ee9.0000000000000533",
+   "pmid": "42891456",
+   "preprint": false,
+   "url": "https://doi.org/10.1097/ee9.0000000000000533",
+   "firstAuthor": "Gunther SH"
+  },
+  {
+   "title": "The association between extreme heat and sperm quality in a chronically heat-exposed population : An observational study in Singapore",
+   "journal": "Environmental epidemiology (Philadelphia, Pa.)",
+   "date": "2026-10-15",
+   "doi": "",
    "pmid": "",
    "preprint": false,
-   "url": "https://doi.org/10.1186/s44147-026-01232-y",
-   "firstAuthor": "Doaa Elshishtawy A. Eldeeb"
+   "url": "https://europepmc.org/article/PMC/PMC13674966",
+   "firstAuthor": "Gunther S"
   },
   {
-   "title": "Global expansion of compound drought–heatwave risk",
-   "journal": "Nature Communications",
-   "date": "2026-10-14",
-   "doi": "10.1038/s41467-026-78045-3",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1038/s41467-026-78045-3",
-   "firstAuthor": "Amitesh Sabut"
-  },
-  {
-   "title": "Tropical Cyclone-Extreme Heat Compound Events Exhibit Amplified Landfall Cooling and Rapid Heat Stress Resurgence",
-   "journal": "Preprint",
-   "date": "2026-10-13",
-   "doi": "10.22541/essoar.15004387/v3",
-   "pmid": "",
-   "preprint": true,
-   "url": "https://doi.org/10.22541/essoar.15004387/v3",
-   "firstAuthor": "Yu Zhao"
-  },
-  {
-   "title": "Left to cope alone: how pregnant and postpartum women and their newborns manage extreme heat in coastal Kilifi, Kenya",
-   "journal": "Frontiers in Global Women s Health",
+   "title": "Left to cope alone: how pregnant and postpartum women and their newborns manage extreme heat in coastal Kilifi, Kenya.",
+   "journal": "Frontiers in global women's health",
    "date": "2026-10-12",
    "doi": "10.3389/fgwh.2026.1825348",
-   "pmid": "",
+   "pmid": "42936054",
    "preprint": false,
    "url": "https://doi.org/10.3389/fgwh.2026.1825348",
-   "firstAuthor": "Adelaide M. Lusambili"
+   "firstAuthor": "Lusambili A"
   },
   {
-   "title": "Intensifying Heatwave Extremes in the Northwest Himalayas, India: Trends, Teleconnections, Causal Drivers, and CMIP6 Projections",
-   "journal": "International Journal of Climatology",
-   "date": "2026-10-11",
-   "doi": "10.1002/joc.70615",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://doi.org/10.1002/joc.70615",
-   "firstAuthor": "Anup Upadhyaya"
-  },
-  {
-   "title": "Characterising spatial patterns of exposure, sensitivity and adaptive capacity to assess heatwave vulnerability of Bangladesh",
-   "journal": "Natural Hazards",
+   "title": "Heat stroke during the 2025 summer heatwave in Northwestern India: A tertiary care emergency department case series.",
+   "journal": "Turkish journal of emergency medicine",
    "date": "2026-10-10",
-   "doi": "10.1007/s11069-026-08432-y",
+   "doi": "10.4103/tjem.tjem_417_25",
+   "pmid": "42964900",
+   "preprint": false,
+   "url": "https://doi.org/10.4103/tjem.tjem_417_25",
+   "firstAuthor": "Siva KV"
+  },
+  {
+   "title": "Heat stress induces gonadal transcriptomic reprogramming and histopathological alterations in the mud crab Scylla paramamosain.",
+   "journal": "Marine pollution bulletin",
+   "date": "2026-10-10",
+   "doi": "10.1016/j.marpolbul.2026.120443",
+   "pmid": "42858619",
+   "preprint": false,
+   "url": "https://doi.org/10.1016/j.marpolbul.2026.120443",
+   "firstAuthor": "Hossen S"
+  },
+  {
+   "title": "Effect of occupation-related heat stress exposure on productivity among sugarcane workers in Thailand.",
+   "journal": "Scandinavian journal of work, environment & health",
+   "date": "2026-10-09",
+   "doi": "10.5271/sjweh.4336",
+   "pmid": "42853598",
+   "preprint": false,
+   "url": "https://doi.org/10.5271/sjweh.4336",
+   "firstAuthor": "Tantipanjaporn T"
+  },
+  {
+   "title": "Thermoregulatory and cognitive responses to ambient temperature under resting and exercise conditions.",
+   "journal": "Journal of thermal biology",
+   "date": "2026-10-08",
+   "doi": "10.1016/j.jtherbio.2026.104583",
+   "pmid": "42858518",
+   "preprint": false,
+   "url": "https://doi.org/10.1016/j.jtherbio.2026.104583",
+   "firstAuthor": "Liu H"
+  },
+  {
+   "title": "Spatial differentiation and potential influencing factors of land-surface heat exposure based on street-view imagery: a case study of Luolong District, Luoyang.",
+   "journal": "Frontiers in public health",
+   "date": "2026-10-07",
+   "doi": "10.3389/fpubh.2026.1960954",
+   "pmid": "42909079",
+   "preprint": false,
+   "url": "https://doi.org/10.3389/fpubh.2026.1960954",
+   "firstAuthor": "Hu J"
+  },
+  {
+   "title": "Heat stress promotes GTBP-1 association with perinuclear P-bodies in the C. elegans germline.",
+   "journal": "PLoS genetics",
+   "date": "2026-10-07",
+   "doi": "10.1371/journal.pgen.1012336",
+   "pmid": "42842631",
+   "preprint": false,
+   "url": "https://doi.org/10.1371/journal.pgen.1012336",
+   "firstAuthor": "Zang D"
+  },
+  {
+   "title": "Integrative transcriptomic analysis reveals tissue associated molecular responses to heat stress in chickens.",
+   "journal": "Poultry science",
+   "date": "2026-10-05",
+   "doi": "10.1016/j.psj.2026.107884",
+   "pmid": "42854502",
+   "preprint": false,
+   "url": "https://doi.org/10.1016/j.psj.2026.107884",
+   "firstAuthor": "Nawaz AH"
+  },
+  {
+   "title": "New horizons in adaptive capacity and heat-related health in older people: integrating frailty, energy insecurity and social resources.",
+   "journal": "Age and ageing",
+   "date": "2026-10-01",
+   "doi": "10.1093/ageing/afag315",
+   "pmid": "42967228",
+   "preprint": false,
+   "url": "https://doi.org/10.1093/ageing/afag315",
+   "firstAuthor": "Petraglia L"
+  },
+  {
+   "title": "Prepartum Heat Stress Dysregulates Immune Resilience in Postpartum Dairy Cows.",
+   "journal": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
+   "date": "2026-10-01",
+   "doi": "10.1096/fj.202602708r",
+   "pmid": "42945143",
+   "preprint": false,
+   "url": "https://doi.org/10.1096/fj.202602708r",
+   "firstAuthor": "Tariq A"
+  },
+  {
+   "title": "Physiological Responses to Intermittent Environmental Heat Stress in Mice.",
+   "journal": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
+   "date": "2026-10-01",
+   "doi": "10.1096/fj.202603273r",
+   "pmid": "42823851",
+   "preprint": false,
+   "url": "https://doi.org/10.1096/fj.202603273r",
+   "firstAuthor": "Husain H"
+  },
+  {
+   "title": "Projecting Impacts of Marine Heatwaves and Their Effects on Long-Term Changes in Marine Ecosystems Over the 21st Century.",
+   "journal": "Global change biology",
+   "date": "2026-10-01",
+   "doi": "10.1111/gcb.71123",
+   "pmid": "42802139",
+   "preprint": false,
+   "url": "https://doi.org/10.1111/gcb.71123",
+   "firstAuthor": "Guibourd de Luzinais V"
+  },
+  {
+   "title": "Elevated CO2 buffers negative impacts of heat stress on short-term growth adjustments of 180-year-old Quercus robur.",
+   "journal": "Tree physiology",
+   "date": "2026-10-01",
+   "doi": "10.1093/treephys/tpag114",
+   "pmid": "42623274",
+   "preprint": false,
+   "url": "https://doi.org/10.1093/treephys/tpag114",
+   "firstAuthor": "Gardner A"
+  },
+  {
+   "title": "Transcriptomic profiles of the maternal-to-zygotic transition for Drosophila embryos exposed to acute and chronic heat stress.",
+   "journal": "G3 (Bethesda, Md.)",
+   "date": "2026-10-01",
+   "doi": "10.1093/g3journal/jkag203",
+   "pmid": "42593150",
+   "preprint": false,
+   "url": "https://doi.org/10.1093/g3journal/jkag203",
+   "firstAuthor": "Rashid F"
+  },
+  {
+   "title": "Heat-Related Illnesses in India: Focus on Fluid-Electrolyte Management.",
+   "journal": "Cureus",
+   "date": "2026-09-30",
+   "doi": "10.7759/cureus.117265",
+   "pmid": "42967065",
+   "preprint": false,
+   "url": "https://doi.org/10.7759/cureus.117265",
+   "firstAuthor": "Kalra S"
+  },
+  {
+   "title": "Extreme heat and snow drought preconditioned the August 2026 Nepal rock–ice avalanche flood",
+   "journal": "Preprint",
+   "date": "2026-09-30",
+   "doi": "10.21203/rs.3.rs-11167819/v1",
+   "pmid": "",
+   "preprint": true,
+   "url": "https://doi.org/10.21203/rs.3.rs-11167819/v1",
+   "firstAuthor": "HASSAN WU"
+  },
+  {
+   "title": "Occupational Heat Stress Prevention Interventions: A Scoping Review of Evidence and Gaps.",
+   "journal": "Journal of occupational health",
+   "date": "2026-09-26",
+   "doi": "10.1093/joccuh/uiag057",
+   "pmid": "42799657",
+   "preprint": false,
+   "url": "https://doi.org/10.1093/joccuh/uiag057",
+   "firstAuthor": "Venugopal V"
+  },
+  {
+   "title": "Phenology, Growth, and Yield of Three Wheat Varieties Under Late-Sown Terminal Heat Stress Conditions in Bangladesh and Implications for Variety Selection",
+   "journal": "Preprint",
+   "date": "2026-09-25",
+   "doi": "10.21203/rs.3.rs-10941020/v1",
+   "pmid": "",
+   "preprint": true,
+   "url": "https://doi.org/10.21203/rs.3.rs-10941020/v1",
+   "firstAuthor": "Mamun ARA"
+  },
+  {
+   "title": "Duration-dependent mild heat stress attenuates mercury-induced Neuroreproductive and oxidative toxicity in Drosophila melanogaster via hormetic mechanisms.",
+   "journal": "Biometals : an international journal on the role of metal ions in biology, biochemistry, and medicine",
+   "date": "2026-09-24",
+   "doi": "10.1007/s10534-026-00887-7",
+   "pmid": "42782463",
+   "preprint": false,
+   "url": "https://doi.org/10.1007/s10534-026-00887-7",
+   "firstAuthor": "Olatomide OD"
+  },
+  {
+   "title": "Multiple organ failure following severe heat stroke complicated by AMSAN-type Guillain-Barré syndrome: a case report and literature review.",
+   "journal": "BMC neurology",
+   "date": "2026-09-22",
+   "doi": "10.1186/s12883-026-05370-x",
+   "pmid": "42773424",
+   "preprint": false,
+   "url": "https://doi.org/10.1186/s12883-026-05370-x",
+   "firstAuthor": "Zhang Y"
+  },
+  {
+   "title": "Compound drought-heat wave hazards are concentrated in US regions with multiple social vulnerabilities and agricultural dependence.",
+   "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+   "date": "2026-09-21",
+   "doi": "10.1073/pnas.2607273123",
+   "pmid": "42766787",
+   "preprint": false,
+   "url": "https://doi.org/10.1073/pnas.2607273123",
+   "firstAuthor": "Sabut A"
+  },
+  {
+   "title": "Changing patterns of heat waves and population exposure in India, 1980-2024",
+   "journal": "Preprint",
+   "date": "2026-09-21",
+   "doi": "10.21203/rs.3.rs-10806998/v1",
+   "pmid": "",
+   "preprint": true,
+   "url": "https://doi.org/10.21203/rs.3.rs-10806998/v1",
+   "firstAuthor": "Talukdar S"
+  },
+  {
+   "title": "Enhanced Levels of Combined Waterlogging and Heat Stress Exacerbate Anatomical Damage, Photosynthetic Impairment, and Oxidative Stress in Tomato.",
+   "journal": "Antioxidants (Basel, Switzerland)",
+   "date": "2026-09-20",
+   "doi": "10.3390/antiox15091210",
+   "pmid": "42792249",
+   "preprint": false,
+   "url": "https://doi.org/10.3390/antiox15091210",
+   "firstAuthor": "Qin W"
+  },
+  {
+   "title": "Concurrent exposure to water deficit and elevated ambient temperature alleviates root growth defects in Arabidopsis.",
+   "journal": "Journal of plant physiology",
+   "date": "2026-09-19",
+   "doi": "10.1016/j.jplph.2026.154877",
+   "pmid": "42790163",
+   "preprint": false,
+   "url": "https://doi.org/10.1016/j.jplph.2026.154877",
+   "firstAuthor": "Parvin A"
+  },
+  {
+   "title": "Shaping the discourse on rehydrating children in heat stress: expositions from India.",
+   "journal": "Frontiers in pediatrics",
+   "date": "2026-09-18",
+   "doi": "10.3389/fped.2026.1895976",
+   "pmid": "42827920",
+   "preprint": false,
+   "url": "https://doi.org/10.3389/fped.2026.1895976",
+   "firstAuthor": "Dasgupta R"
+  },
+  {
+   "title": "Case Report: Extremely elevated ascitic fluid amylase as a diagnostic clue for peritoneal mucormycosis caused by Rhizopus microsporus following exertional heatstroke",
+   "journal": "Frontiers in medicine",
+   "date": "2026-09-17",
+   "doi": "",
    "pmid": "",
    "preprint": false,
-   "url": "https://doi.org/10.1007/s11069-026-08432-y",
-   "firstAuthor": "Sworna Akter"
+   "url": "https://europepmc.org/article/PMC/PMC13579790",
+   "firstAuthor": "Chen G"
+  },
+  {
+   "title": "Emerging compound air-soil heatwaves amplify global vegetation losses.",
+   "journal": "National science review",
+   "date": "2026-09-17",
+   "doi": "10.1093/nsr/nwag603",
+   "pmid": "42936203",
+   "preprint": false,
+   "url": "https://doi.org/10.1093/nsr/nwag603",
+   "firstAuthor": "Wu S"
+  },
+  {
+   "title": "Heat stress and maternal complications in India: A nationwide analysis using the universal thermal climate index.",
+   "journal": "iScience",
+   "date": "2026-09-17",
+   "doi": "10.1016/j.isci.2026.117349",
+   "pmid": "42787552",
+   "preprint": false,
+   "url": "https://doi.org/10.1016/j.isci.2026.117349",
+   "firstAuthor": "Chaudhary SR"
+  },
+  {
+   "title": "Epidemiology, mechanisms and clinical implications of heat-related kidney disease.",
+   "journal": "Nature reviews. Nephrology",
+   "date": "2026-09-16",
+   "doi": "10.1038/s41581-026-01126-5",
+   "pmid": "42749859",
+   "preprint": false,
+   "url": "https://doi.org/10.1038/s41581-026-01126-5",
+   "firstAuthor": "McMullen L"
+  },
+  {
+   "title": "Effect of Ambient Temperature on Kidney Function.",
+   "journal": "Nephron",
+   "date": "2026-09-16",
+   "doi": "10.1159/nef/adtag002",
+   "pmid": "42748031",
+   "preprint": false,
+   "url": "https://doi.org/10.1159/nef/adtag002",
+   "firstAuthor": "Mondal K"
+  },
+  {
+   "title": "Mitigating exertional heat illness risk and preserving performance in mass-participation endurance events: a real-world analysis of a graded cooling and fluid replacement strategy.",
+   "journal": "Journal of science and medicine in sport",
+   "date": "2026-09-15",
+   "doi": "10.1016/j.jsams.2026.09.007",
+   "pmid": "42786052",
+   "preprint": false,
+   "url": "https://doi.org/10.1016/j.jsams.2026.09.007",
+   "firstAuthor": "Li H"
+  },
+  {
+   "title": "Application of Gelatin/Chitosan Films Loaded with Seaweed Extract of Ready-to-Eat Sea Cucumbers Preservation During Ambient-Temperature Storage.",
+   "journal": "Foods (Basel, Switzerland)",
+   "date": "2026-09-14",
+   "doi": "10.3390/foods15183246",
+   "pmid": "42794031",
+   "preprint": false,
+   "url": "https://doi.org/10.3390/foods15183246",
+   "firstAuthor": "Zhou Y"
+  },
+  {
+   "title": "&lt;i&gt;Aspergillus niger&lt;/i&gt;-fermented watermelon rind enhances growth, immunity, and heat stress resilience in Asian seabass ( &lt;b&gt;&lt;i&gt;Lates calcarifer&lt;/i&gt;&lt;/b&gt; ).",
+   "journal": "Veterinary and animal science",
+   "date": "2026-09-14",
+   "doi": "10.1016/j.vas.2026.100871",
+   "pmid": "42780938",
+   "preprint": false,
+   "url": "https://doi.org/10.1016/j.vas.2026.100871",
+   "firstAuthor": "Ahmadifar E"
+  },
+  {
+   "title": "Occupational heatstroke-induced acute kidney injury: a narrative review of mechanisms, biomarkers, and the timing of blood purification initiation.",
+   "journal": "Renal failure",
+   "date": "2026-09-14",
+   "doi": "10.1080/0886022x.2026.2727744",
+   "pmid": "42734065",
+   "preprint": false,
+   "url": "https://doi.org/10.1080/0886022x.2026.2727744",
+   "firstAuthor": "Wang S."
+  },
+  {
+   "title": "Intended reduction in formulated net energy density and associated changes in diet composition improved growth performance and breast meat yield in broiler chickens under both cyclic heat stress and thermoneutral conditions.",
+   "journal": "Poultry science",
+   "date": "2026-09-12",
+   "doi": "10.1016/j.psj.2026.107759",
+   "pmid": "42800449",
+   "preprint": false,
+   "url": "https://doi.org/10.1016/j.psj.2026.107759",
+   "firstAuthor": "Xie C"
+  },
+  {
+   "title": "Heat stress in cereal crops: reproductive development and grain filling.",
+   "journal": "Journal of genetics and genomics = Yi chuan xue bao",
+   "date": "2026-09-08",
+   "doi": "10.1016/j.jgg.2026.09.002",
+   "pmid": "42710655",
+   "preprint": false,
+   "url": "https://doi.org/10.1016/j.jgg.2026.09.002",
+   "firstAuthor": "Fan S"
+  },
+  {
+   "title": "Correlation between variation in ambient temperature and presentation to the emergency department for psychiatric disorders: results from an eight-year observational study",
+   "journal": "European psychiatry : the journal of the Association of European Psychiatrists",
+   "date": "2026-09-04",
+   "doi": "",
+   "pmid": "",
+   "preprint": false,
+   "url": "https://europepmc.org/article/PMC/PMC13441952",
+   "firstAuthor": "Rizzo Pesci N"
+  },
+  {
+   "title": "Daily variation in milk HSP70 in dairy cows during a heat wave.",
+   "journal": "Journal of dairy science",
+   "date": "2026-09-03",
+   "doi": "10.3168/jds.2026-28326",
+   "pmid": "42692344",
+   "preprint": false,
+   "url": "https://doi.org/10.3168/jds.2026-28326",
+   "firstAuthor": "Rakib MRH"
+  },
+  {
+   "title": "Distinct performance and ruminal adaptations to ethyl-cellulose rumen-protected methionine and guanidinoacetic acid during a heat stress challenge in lactating Holstein cows.",
+   "journal": "Journal of dairy science",
+   "date": "2026-09-03",
+   "doi": "10.3168/jds.2026-28752",
+   "pmid": "42692333",
+   "preprint": false,
+   "url": "https://doi.org/10.3168/jds.2026-28752",
+   "firstAuthor": "Mauck JD"
+  },
+  {
+   "title": "Whole-genome sequencing reveals divergent and shared selection signatures of heat stress adaptation in indigenous Ethiopian zebu cattle from dry-hot and humid-hot environments.",
+   "journal": "PloS one",
+   "date": "2026-09-03",
+   "doi": "10.1371/journal.pone.0343484",
+   "pmid": "42691073",
+   "preprint": false,
+   "url": "https://doi.org/10.1371/journal.pone.0343484",
+   "firstAuthor": "Terefe E"
+  },
+  {
+   "title": "Precision phenotyping of reproductive events in dairy cattle under heat stress: epidemiological validity and implications for genetic improvement in tropical systems.",
+   "journal": "Tropical animal health and production",
+   "date": "2026-09-03",
+   "doi": "10.1007/s11250-026-05298-x",
+   "pmid": "42690487",
+   "preprint": false,
+   "url": "https://doi.org/10.1007/s11250-026-05298-x",
+   "firstAuthor": "Safdar T"
+  },
+  {
+   "title": "A Review on Heat Stress in Broiler Chickens: Mechanisms, Effects and Mitigation Strategies.",
+   "journal": "Veterinary medicine and science",
+   "date": "2026-09-01",
+   "doi": "10.1002/vms3.71219",
+   "pmid": "42735919",
+   "preprint": false,
+   "url": "https://doi.org/10.1002/vms3.71219",
+   "firstAuthor": "Begum M"
+  },
+  {
+   "title": "Development and characterization of Hanwoo oviduct epithelial cell line for heat stress study.",
+   "journal": "Animal bioscience",
+   "date": "2026-09-01",
+   "doi": "10.5713/ab.250962",
+   "pmid": "42692438",
+   "preprint": false,
+   "url": "https://doi.org/10.5713/ab.250962",
+   "firstAuthor": "Shaleh I"
+  },
+  {
+   "title": "Polar and subpolar shelf seas dominate enhanced coastal CO&lt;sub&gt;2&lt;/sub&gt; uptake during marine heatwaves.",
+   "journal": "Nature communications",
+   "date": "2026-09-01",
+   "doi": "10.1038/s41467-026-77165-0",
+   "pmid": "42680758",
+   "preprint": false,
+   "url": "https://doi.org/10.1038/s41467-026-77165-0",
+   "firstAuthor": "Hu Z"
+  },
+  {
+   "title": "Machine Learning-Based Assessment and Forecasting of Temperature–Humidity Index for Dairy Heat Stress Using Multivariate and Panel Data Approaches in Bihar, India",
+   "journal": "Preprint",
+   "date": "2026-09-01",
+   "doi": "10.21203/rs.3.rs-10502094/v1",
+   "pmid": "",
+   "preprint": true,
+   "url": "https://doi.org/10.21203/rs.3.rs-10502094/v1",
+   "firstAuthor": "Kumar V"
   }
  ]
 }

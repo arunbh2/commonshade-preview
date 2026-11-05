@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T07:02:57.737Z",
+ "updated": "2026-11-05T20:08:33.664Z",
  "keepDays": 14,
  "sources": [
   {
@@ -16,6 +16,22 @@
  ],
  "query": "(heatwave OR \"heat wave\" OR \"extreme heat\" OR \"heat stress\" OR heatstroke OR \"heat index\") (India OR Bangladesh OR Nepal OR \"Sri Lanka\" OR Pakistan OR Bhutan OR Maldives OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR Laos) sourcelang:english",
  "items": [
+  {
+   "title": "Dangerous heat index expected in 3 areas on Friday – Pagasa",
+   "url": "https://newsinfo.inquirer.net/2336795/dangerous-heat-index-expected-in-3-areas-on-friday-pagasa",
+   "domain": "newsinfo.inquirer.net",
+   "date": "2026-11-05T19:52:00Z",
+   "place": "Philippines",
+   "via": "Inquirer"
+  },
+  {
+   "title": "Walang Pasok: Class suspensions on Friday (Nov. 6) due to high heat index",
+   "url": "https://newsinfo.inquirer.net/2336740/walang-pasok-class-suspensions-on-friday-nov-6-due-to-high-heat-index",
+   "domain": "newsinfo.inquirer.net",
+   "date": "2026-11-05T17:37:53Z",
+   "place": "Philippines",
+   "via": "Inquirer"
+  },
   {
    "title": "WALANG PASOK: Class suspensions on Thursday due to high heat index",
    "url": "https://newsinfo.inquirer.net/2336167/walang-pasok-class-suspensions-on-thursday-due-to-high-heat-index",
