@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T20:08:33.664Z",
+ "updated": "2026-11-06T07:02:57.579Z",
  "keepDays": 14,
  "sources": [
   {
@@ -16,6 +16,14 @@
  ],
  "query": "(heatwave OR \"heat wave\" OR \"extreme heat\" OR \"heat stress\" OR heatstroke OR \"heat index\") (India OR Bangladesh OR Nepal OR \"Sri Lanka\" OR Pakistan OR Bhutan OR Maldives OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR Laos) sourcelang:english",
  "items": [
+  {
+   "title": "Extreme heat is creating a workplace health crisis in Bangladesh’s garment industry",
+   "url": "https://news.mongabay.com/short-article/2026/11/extreme-heat-is-creating-a-workplace-health-crisis-in-bangladeshs-garment-industry/",
+   "domain": "news.mongabay.com",
+   "date": "2026-11-06T06:39:56Z",
+   "place": "Bangladesh",
+   "via": "Mongabay"
+  },
   {
    "title": "Dangerous heat index expected in 3 areas on Friday – Pagasa",
    "url": "https://newsinfo.inquirer.net/2336795/dangerous-heat-index-expected-in-3-areas-on-friday-pagasa",
