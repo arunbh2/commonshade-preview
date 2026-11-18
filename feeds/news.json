@@ -1,21 +1,29 @@
 {
- "updated": "2026-11-17T21:06:53.282Z",
+ "updated": "2026-11-18T07:44:05.641Z",
  "keepDays": 14,
  "sources": [
   {
    "name": "regional news outlets",
    "ok": true,
-   "found": 502
+   "found": 522
   },
   {
    "name": "GDELT Project",
    "ok": false,
    "found": 0,
-   "error": "GDELT replied: Your query was too short or too long. "
+   "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic us"
   }
  ],
  "query": "(heatwave OR \"heat wave\" OR \"extreme heat\" OR \"heat stress\" OR heatstroke OR \"heat index\") (India OR Bangladesh OR Nepal OR \"Sri Lanka\" OR Pakistan OR Bhutan OR Maldives OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR Laos) sourcelang:english",
  "items": [
+  {
+   "title": "Walang pasok: Zamboanga City schools suspend classes due to extreme heat",
+   "url": "https://newsinfo.inquirer.net/2343110/walang-pasok-zamboanga-city-schools-suspend-classes-due-to-extreme-heat",
+   "domain": "newsinfo.inquirer.net",
+   "date": "2026-11-18T07:55:37Z",
+   "place": "Philippines",
+   "via": "Inquirer"
+  },
   {
    "title": "Pagasa warns of dangerous heat index in 8 areas on Wednesday",
    "url": "https://newsinfo.inquirer.net/2342936/pagasa-warns-of-dangerous-heat-index-in-8-areas-on-wednesday",
